@@ -1,14 +1,25 @@
 
-# STM 32 PCB Design
+# STM32 PCB Project
 
-The project includes design of the famous microcontroller integrated circuit STM32. 
+## Overview
+This repository contains the design files and documentation for a custom PCB based on the STM32 microcontroller, created using KiCAD.
 
-STM32 is a family of 32-bit microcontroller integrated circuits by STMicroelectronics.
+## Features
+- **Microcontroller:** STM32 series (e.g., STM32F4xxx, STM32L0xxx)
+- **Peripherals:** Includes GPIO, ADC, DAC, PWM, timers, and communication interfaces such as USB, UART, SPI, and I2C.
+- **Connectivity:** Supports various communication protocols for IoT applications.
+- **Power:** Operates within a specific voltage range (e.g., 3.3V or 5V) with low power consumption capabilities.
+- **Programming:** Easily programmable via SWD interface or USB bootloader.
+- **Dimensions:** Compact size suitable for embedded applications.
 
-The schematics for the PCB can be viewed by accessing the .sch file in the repo.
+## Files Included
+- **Schematic:** https://github.com/arushmangalambajpai/STM32-PCB-DESIGN/blob/main/STM32%40CRISS.kicad_sch
+- **PCB Layout:** https://github.com/arushmangalambajpai/STM32-PCB-DESIGN/blob/main/STM32%40CRISS.kicad_pcb
+- **Bill of Materials (BOM):** https://github.com/arushmangalambajpai/STM32-PCB-DESIGN/blob/main/BOM%40STM32_FINAL.xlsx
 
-3D Model of the PCB containing footprints and models can be viewed from .pcb file in the repo.
+## Prerequisites
+- **KiCAD:** Version X.X or higher. Download and install KiCAD from [KiCAD's official website](https://www.kicad.org/download/).
 
-Other info about the device can be found in the datasheet publicly available everywhere.
+---
 
-The file named 629105150521(rev1).stp is 3D footprint of one of the components of the PCB and thus, is necessary to download with the other files to ensure proper view of the PCB Model.
+This README file provides a concise overview of your STM32 PCB project, detailing its features, the tools used, and where to find the necessary design files.
